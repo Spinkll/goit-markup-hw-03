@@ -276,6 +276,7 @@ a:focus {
 
 .feature-list {
   display: flex;
+  flex-wrap: wrap;
   gap: 24px;
 }
 
