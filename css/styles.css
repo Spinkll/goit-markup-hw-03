@@ -7,7 +7,8 @@ body {
 .container {
   margin: 0 auto;
   padding: 0 15px;
-  width: 1158px;
+  max-width: 1158px;
+  width: 100%;
 }
 
 .logo {
@@ -281,7 +282,7 @@ a:focus {
 }
 
 .card-set-item {
-  width: calc((100% - 72px) / 4);
+  width: calc((100% - 3 * 24px) / 4);
 }
 
 .footer {
